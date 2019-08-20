@@ -1,0 +1,14 @@
+<site name="demooldschool" path="demooldschool">
+    <title><![CDATA[Text-version]]></title>
+    <description><![CDATA[Минималистичный дизайн сайта UMI.CMS Text-Version, выполненного на xslt-шаблонизаторе, позволит на основе простых текстовых шаблонов быстро запустить свой сайт любой тематики, и затем развивать его по мере необходимости.]]></description>
+    <preview>http://install.umi-cms.ru/preview/demooldschool.png</preview>
+    <supported-licenses>
+        <license>start</license>
+        <license>lite</license>
+        <license>corporate</license>
+        <license>business</license>
+        <license>shop</license>
+        <license>commerce</license>
+        <license>commerce_enc</license>
+    </supported-licenses>
+</site>
