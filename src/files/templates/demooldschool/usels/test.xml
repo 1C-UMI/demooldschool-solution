@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selection>
+<target result="pages">
+<type module="content" method="page" />
+</target>
+<limit page="0">5</limit>
+</selection>

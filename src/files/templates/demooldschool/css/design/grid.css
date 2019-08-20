@@ -1,0 +1,399 @@
+/* reset */
+body {
+	font-size: 14px;
+	font-family: Trebuchet MS;
+	margin: 0;
+	padding: 0;
+}
+a {
+	outline: none;
+	text-decoration:none;
+}
+h1 {
+	font-size:22px;
+}
+a.active{
+	font-weight: bold;
+	color: blue;
+}
+img {
+	border: none;
+}
+.left {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+.right {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+td, th, input, select, textarea {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 14px;
+	margin-bottom:4px;
+}
+form#registrate div + div + div + div +div +div {
+	padding-top:10px;
+}
+input[type='radio'],
+input[type='checkbox'] {
+	margin: 3px 5px 0 0;
+}
+p {
+	margin: 0 0 10px 0;
+}
+.clear {
+	clear: both;
+	font-size: 1px;
+	margin: 0;
+	padding: 0;
+}
+/* /reset */
+
+
+div#main {
+	margin: 0 20px;
+	min-width: 955px;
+}
+
+/* header */
+div#main div#header {
+	padding-bottom: 30px;
+}
+div#main div#header div.center {
+	padding-top: 10px;
+}
+/* /header */
+
+/* left */
+div#main div.left {
+	margin:0px;
+	margin-top:5px;
+	padding:0px;
+	width: 20%;
+	float: left;
+}
+div#main div.left ul {
+	margin-left: 10px;
+}
+div#main div.left ul li {
+	list-style: none;
+	line-height: 25px;
+}
+div#main div.left ul li  a{
+	text-decoration:none;
+	color:#0153C2;
+	font-weight:none;
+}
+div#main div.left ul li ul {
+	margin-left: 20px;
+}
+div#main div.left .login {
+	margin: 20px 0;
+}
+/* /left */
+
+/* center */
+div#main div.center {
+	margin-left: 23%;
+}
+div#main div.center div.in {
+	float: left;
+	margin-right:30px;
+}
+div#main div.center p {
+	font-size: 14px;
+}
+div#main div.center form div label span {
+	display: block;
+	float: left;
+	width: 200px;
+	padding-top:1px;
+}
+div#main div.center form div label input {
+	width: 250px;
+	margin-bottom:5px;
+}
+div#main div.center form div div.clear {
+	height: 0;
+}
+/* /center */
+
+/* footer */
+div#main div#footer {
+	margin: 30px 0;
+}
+#vote {
+	margin:10px 0;
+}
+#vote .vote_text {
+	font-weight:bold;
+	margin-bottom:15px;
+}
+form ul li {
+	list-style-type:none;
+	padding:5px 0;
+}
+form ul li label{
+	display:block;
+	margin:0 15px;
+}
+form ul {
+	margin-bottom:10px;
+}
+/* /footer */
+form div.form_element label textarea{
+	border:1px solid #BABABA;
+	width:100%;
+	padding:10px;
+	height:100px;
+	margin:10px 0px;
+}
+.descr {
+	margin:20px 0;
+	border-bottom:1px dotted #B7BCBF;
+	padding-bottom:10px;
+}
+.comment_text {
+	padding-bottom:5px;
+}
+div.comment {
+	padding-top:10px;
+	border-bottom:1px dotted #B7BCBF;
+}
+div.news_lents {
+	padding:10px 0;
+}
+.news_timestamp  {
+	padding:5px 0;
+	color:#606060;
+	font-size:11px;
+}
+div.forum_message {
+	padding:10px 0 10px;
+}
+div.captcha_style input {
+	margin-right:85px;
+}
+input.captcha {
+	position:relative;
+	top:12px;
+}
+.textinputs  {
+	margin-right:5px !important;
+}
+.descr h3 a{
+	color:#0153C2;
+}
+/*.descr h3 a:hover{
+	border-bottom:1px solid #0153C2;
+}*/
+.padding10px {
+	padding:10px 0;
+}
+.forum_descr + table thead th,
+.forum_descr + table tbody tr td {
+	border:1px solid #BABABA;
+	border-collapse:collapse;
+}
+.forum_descr + table tbody tr td a{
+	color:#0153C2;
+}
+/*.forum_descr + table tbody tr td a:hover{
+	border-bottom:1px solid #0153C2;
+}*/
+div .basket  table thead th,
+div .basket table tbody tr td {
+	border:1px solid #BABABA;
+	border-collapse:collapse;
+	text-align:left;
+	padding:0 10px;
+}
+div .basket table tbody tr td input{
+	border:none;
+}
+div .basket table tbody tr td a{
+	color:#0153C2;
+}
+/*div .basket table tbody tr td a:hover{
+	border-bottom:1px solid #0153C2;
+}*/
+.basket_remove_all {
+	float:left;
+	color:#0153C2;
+}
+.basket_remove_all + a.button {
+	float:right;
+	color:#0153C2;
+}
+div.basket + p a,
+.emarket_basket_top a  {
+	color:#0153C2;
+}
+/*div.basket + p a:hover{
+	border-bottom:1px solid #0153C2;
+}
+a.button:hover {
+	border-bottom:1px solid #0153C2;
+}*/
+.emarket_basket_top {
+
+	float:right;
+	margin-top:-38px;
+	color:#606060;
+	font-family:Tahoma;
+	font-size:11px;
+}
+/*.emarket_basket_top a:hover {
+	border-bottom:1px solid #0153C2;
+}*/
+div.center form div label input {
+	width:auto;
+}
+.align_l {
+	text-align:left;
+	width:300px;
+	padding:5px 0;
+}
+table.blue a{
+	color:#0153C2;
+}
+form.login div {
+	padding-bottom:3px;
+}
+form#registrate {
+	padding-top:10px;
+}
+div#main div.center form div label span.required {
+	display:inline;
+	float:none;
+	width:10px;
+	color:red;
+}
+form#form_for_comments div {
+	padding-bottom:5px;
+}
+div#page div.center div.in div  a{
+	margin-bottom:5px;
+}
+span.price {
+	margin:5px 0;
+	font-size:12px;
+	font-weight:bold;
+	font-weight:bold;
+}
+form#form_basket input{
+	
+	margin-top:15px;
+	font-size:12px;
+}
+.emarket_basket_top {
+	
+	border:1px solid #DEDEDE;
+	position:absolute;
+	right:30px;
+	padding:5px 10px;
+	display:block;
+	
+}
+#radio_style,
+.receipt,
+.courier,
+.yandex,
+.robox,
+.payonline,
+.invoice,
+.rbk {
+	width:10px !important;
+}
+.big {
+	margin:10px 0;
+}
+
+a.del {
+	background:url("/images/icons.gif") no-repeat scroll -11px -407px transparent;
+	padding:0 5px;
+	position:relative;
+	top:3px;
+}
+a.del:hover {
+	text-decoration:none;
+	border:none;
+}
+
+/*vote*/
+table.vote {
+	border-collapse:collapse;
+	width:100%;
+}
+table.vote tr td {
+	width:300px;
+	vertical-align:top;
+}
+table.vote tr td.right {
+	color:#606060;
+	width:30px;
+	text-align:right;
+}
+table.vote tr td.last {
+	width:30px;
+	text-align:right;
+}
+.adding_blogs {
+	float:right;
+	margin:0;
+	padding:0;
+}
+div.add_form {
+	margin-top:20px;
+	padding-top:20px;
+}
+div#main div.center form div.captcha_style label span {
+    float:none;
+}
+div.captcha_style img {
+ display: block;
+ float: left;
+ margin: 5px 79px 0pt 0pt;
+}
+div#comments h3 {
+	 margin-bottom:0;
+}
+div.comment {
+	padding-bottom:20px;
+}
+div.comment strong {
+	font-size:12px;
+}
+.conf_table {
+	margin:20px 0;
+}
+.form_conf {
+	padding:20px 0;
+}
+a {
+	text-decoration:none; 
+}
+a:hover {
+	text-decoration:underline;
+}
+table.blue tr td + td + td + td +td {
+	text-align:center;
+	vertical-align:middle;
+}
+.margin_0 {
+	margin:0;
+}
+/*/vote*/
+.p_user{
+	margin:10px 0;
+	padding:0;
+}
